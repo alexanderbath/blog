@@ -1,6 +1,7 @@
 ---
 title: "Showcasing the Prices App"
 date: 2020-04-08T8:53:11+09:30
+author: "Alexander Bath"
 ---
 
 ![App Image](/prices.png)  
