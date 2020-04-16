@@ -20,7 +20,7 @@ A menu and sub-menu tree was deemed to be the best UI model, making it easy to p
 To facilitate quick modifications, a desktop class web application was developed to be used back in the offices by the leadership team, enabling quick changes to the prices that were pushed out to all of the iPad clients immediately with a minimum of effort. This allowed pricing to mirror small changes in import pricing amongst other factors, which was just not possible with the previous system.
 
 ## The Technical Stuff
-Both the frontend and admin panel were built using Angular, with the data being stored and served by an API built using the Django Rest Framework. We built a custom UI interface for the client facing frontend, while the admin panel was build using the brilliant VMWare Clarity framework. 
+Both the frontend and admin panel were built using Angular, with the data being stored and served by an API built using the Django Rest Framework. We built a custom UI interface for the client facing frontend, while the admin panel was built using the brilliant VMWare Clarity framework. 
 
 To make sure the application was flexible enough to store and display whatever data was necessary in the future, rather than storing the price data in firm database structures, each pricelist is simply rendered from HTML. This enables easy editing in the backend using a great WYSIWYG editor for angular called AngularEditor. 
 
